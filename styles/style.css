@@ -87,8 +87,9 @@ ol {
   background-color: transparent;
   border: 1px solid currentColor;
   color: var(--light-color);
+  font-family: inherit;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .button:active {
@@ -106,10 +107,9 @@ ol {
 }
 
 .search-form__submit-button {
-  padding-inline: 69px;
-  padding-block: 6px;
+  padding-inline: 74px;
+  padding-block: 5px;
   margin-top: 19px;
-  align-self: center;
 }
 
 .search-form__fieldset {
@@ -301,8 +301,7 @@ input[type="checkbox"]:checked + span {
 
 .more-button {
   width: fit-content;
-  margin-bottom: 3px;
-  padding: 6px 135px;
+  padding: 5px 144px;
 }
 
 .visually-hidden {
